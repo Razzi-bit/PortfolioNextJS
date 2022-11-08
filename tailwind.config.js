@@ -7,7 +7,15 @@ module.exports = {
   ],
 
   theme: {
-    extend: {},
+    colors: {
+      main: "#2d2e32",
+      second: "#25262a",
+      details: "#62f3aa",
+    },
+    fontFamily: {
+      Poppins: ["Poppins", "sans-serif"],
+      Roboto: ["Roboto Mono", "monospace"],
+    },
   },
   plugins: [],
 };
